@@ -426,7 +426,7 @@ a {
   color: var(--color-white);
   padding: 0 var(--spacing-md) var(--spacing-lg);
   width: 100%;
-  transform: translateY(-200px) !important;
+  transform: translateY(-10%);
 }
 
 .hero__label {
@@ -479,8 +479,8 @@ a {
 }
 
 .countdown__label {
-  font-size: 0.75rem;
-  font-weight: 300;
+  font-size: 0.85rem;
+  font-weight: 400;
   letter-spacing: 3px;
   opacity: 0.7;
   margin-bottom: var(--spacing-sm);
@@ -510,7 +510,7 @@ a {
 
 .countdown__unit {
   font-size: 0.625rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 2px;
   opacity: 0.6;
   margin-top: 0.25rem;
