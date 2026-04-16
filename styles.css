@@ -394,6 +394,7 @@ a {
   padding: 0;
   overflow: hidden;
   background-color: #3a3228;
+  color: var(--color-white);
 }
 
 .hero__overlay {
