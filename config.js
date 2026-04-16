@@ -20,7 +20,7 @@ const CONFIG = {
   groom: {
     name: "김성진",
     nameEn: "KimSungjin",
-//    father: "여기서이렇게이름을바꾸시면됩니다",
+    father: "김화수",
     mother: "최은희",
     fatherDeceased: false,
     motherDeceased: false
@@ -66,12 +66,12 @@ const CONFIG = {
   // ── 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "김성진", bank: "신한은행", number: "110-261-797720" },
+      { role: "신랑", name: "김성진", bank: "신한은행", number: "110-261-797720" }
    //   { role: "아버지", name: "홍판서", bank: "신한은행", number: "000-000-000000" },
     //  { role: "어머니", name: "최은희", bank: "우리은행", number: "000-000-000000" }
     ],
     bride: [
-      { role: "신부", name: "최민정", bank: "토스", number: "1000-3413-7063" },
+      { role: "신부", name: "최민정", bank: "토스", number: "1000-3413-7063" }
     //  { role: "아버지", name: "최성광", bank: "기업은행", number: "000-000-000000" },
     //  { role: "어머니", name: "임금란", bank: "농협은행", number: "000-000-000000" }
     ]
