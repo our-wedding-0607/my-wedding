@@ -390,7 +390,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0;
   overflow: hidden;
   background-color: #3a3228;
@@ -420,13 +420,17 @@ a {
 }
 
 .hero__content {
-  position: relative;
-  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.hero__top {
   text-align: center;
-  color: var(--color-white);
-  padding: 0 var(--spacing-md) var(--spacing-lg);
-  width: 100%;
-  transform: translateY(-15%);
+  margin-top: 10vh;
+}
+.hero__down {
+  text-align: center;
+  margin-bottom: 6vh;
 }
 
 .hero__label {
