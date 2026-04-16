@@ -443,6 +443,7 @@ a {
   text-transform: uppercase;
   margin-bottom: var(--spacing-sm);
   opacity: 0.85;
+  color: var(--color-white);
 }
 
 .hero__names {
@@ -469,6 +470,7 @@ a {
   opacity: 0.85;
   line-height: 1.6;
   text-align: center;
+  color: var(--color-white);
 }
 
 .hero__venue {
