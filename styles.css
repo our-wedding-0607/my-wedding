@@ -433,6 +433,7 @@ a {
 .hero__bottom {
   text-align: center;
   margin-bottom: 6vh;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
 }
 
 .hero__label {
