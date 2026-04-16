@@ -24,7 +24,10 @@
 
   --font-serif: 'Noto Serif KR', 'Georgia', serif;
   --font-display: 'Cormorant Garamond', 'Noto Serif KR', serif;
-
+  --hero-gap-xs: 4px;
+  --hero-gap-sm: 6px;
+  --hero-gap-md: 10px;
+   
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
   --spacing-md: 1.5rem;
@@ -426,15 +429,11 @@ a {
   height: 100%;
   justify-content: space-between;
 }
-.hero__top {
-  text-align: center;
-  margin-top: 10vh;
-}
+.hero__top,
 .hero__bottom {
-  text-align: center;
-  margin-bottom: 6vh;
-  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
-  transform: translateY(-24px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--hero-gap-xs);
 }
 
 .hero__label {
@@ -443,7 +442,7 @@ a {
   font-weight: 300;
   letter-spacing: 6px;
   text-transform: uppercase;
-  margin-bottom: 8px(--spacing-sm);
+  margin-bottom: var(--hero-gap-xs);
   opacity: 0.85;
   color: var(--color-white);
 }
@@ -454,7 +453,7 @@ a {
   font-size: 2rem;
   font-weight: 200;
   letter-spacing: 8px;
-  margin-bottom: 8px(--spacing-md);
+  margin-bottom: var(--hero-gap-sm);
   line-height: 1.4;
 }
 
