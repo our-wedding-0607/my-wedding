@@ -468,6 +468,7 @@ a {
   letter-spacing: 2px;
   opacity: 0.85;
   line-height: 1.6;
+  text-align: center;
 }
 
 .hero__venue {
