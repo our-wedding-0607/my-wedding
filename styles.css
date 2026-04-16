@@ -446,6 +446,7 @@ a {
   color: var(--color-white);
 }
 
+
 .hero__names {
   font-family: var(--font-serif);
   font-size: 2rem;
@@ -1096,6 +1097,7 @@ a {
   .hero__label {
     font-size: 0.9375rem;
     letter-spacing: 8px;
+    color: var(--color-white);
   }
 
   .countdown__number {
