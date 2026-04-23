@@ -423,7 +423,7 @@
     if (placeholder) placeholder.remove();
 
     if (storyImages.length === 0) return;
-
+/*
     storyImages.forEach((src, i) => {
       const div = document.createElement('div');
       div.className = 'story__photo-item animate-item';
@@ -431,7 +431,9 @@
       div.innerHTML = `<img src="${src}" alt="스토리 사진 ${i + 1}" loading="lazy">`;
       div.addEventListener('click', () => openPhotoModal(storyImages, i));
       container.appendChild(div);
-    });
+    }
+                       */
+                       );
   }
 
   /* ═══════════════════════════════════════════
