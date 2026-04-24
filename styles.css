@@ -691,9 +691,11 @@ a {
 }
 
 .story__photos {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-md);
+  display: grid;
+  grid-template-columns: repeat (3,1fr);
+  gap: 6px;
+--  flex-direction: column;
+--  gap: var(--spacing-md);
 }
 
 .story__photo-item {
@@ -704,9 +706,9 @@ a {
 
 .story__photo-item img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  transition: transform var(--transition-slow);
+--  transition: transform var(--transition-slow);
 }
 
 .story__photo-item:hover img {
