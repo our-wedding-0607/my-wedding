@@ -41,7 +41,7 @@ const CONFIG = {
     venue: "사당세인트메리스",
     hall: "5층",
     address: "서울 서초구 방배동 481-5",
-    tel: "02-1234-5678",
+    tel: "0507-1370-9001",
     mapLinks: {
       kakao: "https://place.map.kakao.com/59391633",
       naver: "https://naver.me/xyT3LlGh"
