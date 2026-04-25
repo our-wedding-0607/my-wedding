@@ -555,19 +555,23 @@
      Location Section
      ═══════════════════════════════════════════ */
 
-  function initLocation() {
-    const w = CONFIG.wedding;
-    $('#locationVenue').textContent = w.venue;
-    $('#locationHall').textContent = w.hall;
-    $('#locationAddress').textContent = w.address;
-    $('#locationTel').textContent = w.tel ? `Tel. ${w.tel}` : '';
-    $('#kakaoMapBtn').href = w.mapLinks.kakao || '#';
-    $('#naverMapBtn').href = w.mapLinks.naver || '#';
+function initLocation() {
+  const w = CONFIG.wedding;
 
-    $('#copyAddressBtn').addEventListener('click', () => {
-      copyToClipboard(w.address, '주소가 복사되었습니다');
-    });
-  }
+  $('#locationVenue').textContent = w.venue;
+  $('#locationHall').textContent = w.hall;
+  $('#locationAddress').textContent = w.address;
+  $('#locationTel').textContent = w.tel ? `Tel. ${w.tel}` : '';
+
+  // 카카오 / 네이버 지도 링크
+  $('#kakaoMapBtn').href = w.mapLinks.kakao || '#';
+  $('#naverMapBtn').href = w.mapLinks.naver || '#';
+
+  // 주소 복사
+  $('#copyAddressBtn').addEventListener('click', () => {
+    copyToClipboard(w.address, '주소가 복사되었습니다');
+  });
+}
 
   /* ═══════════════════════════════════════════
      Account Section (축의금)
