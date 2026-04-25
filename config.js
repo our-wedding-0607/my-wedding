@@ -14,12 +14,12 @@
 
 const CONFIG = {
   // ── 초대장 열기 ──
-  useCurtain: true,  // 초대장 열기 화면 사용 여부 (true: 사용, false: 바로 본문 표시)
+  useCurtain: false,  // 초대장 열기 화면 사용 여부 (true: 사용, false: 바로 본문 표시)
 
   // ── 메인 (히어로) ──
   groom: {
-    name: "김성진",
-    nameEn: "KimSungjin",
+    name: "신랑",
+    nameEn: "김성진",
     father: "김화수",
     mother: "최은희",
     fatherDeceased: false,
@@ -27,8 +27,8 @@ const CONFIG = {
   },
 
   bride: {
-    name: "최민정",
-    nameEn: "ChoiMinjeong",
+    name: "신부",
+    nameEn: "최민정",
     father: "최성광",
     mother: "임금란",
     fatherDeceased: false,
@@ -38,13 +38,13 @@ const CONFIG = {
   wedding: {
     date: "2026-06-27",
     time: "15:00",
-    venue: "사당세인트메리스",
+    venue: "세인트메리스",
     hall: "5층",
-    address: "서울 서초구 방배동 481-5",
-    tel: "0507-1370-9001",
+    address: "서울특별시 서초구 남부순환로289길 5 삼영빌딩 5층",
+    tel: "02-587-8999",
     mapLinks: {
       kakao: "https://place.map.kakao.com/59391633",
-      naver: "https://naver.me/xyT3LlGh"
+      naver: "https://map.naver.com/p/entry/place/1428180390?placePath=/home?entry=plt&from=map&fromPanelNum=1&additionalHeight=76&timestamp=202604072320&locale=ko&svcName=map_pcv5&searchType=place&lng=126.9885333&lat=37.4755755&c=15.00,0,0,0,dh"
     }
   },
 
@@ -67,13 +67,9 @@ const CONFIG = {
   accounts: {
     groom: [
       { role: "신랑", name: "김성진", bank: "신한은행", number: "110-261-797720" }
-   //   { role: "아버지", name: "홍판서", bank: "신한은행", number: "000-000-000000" },
-    //  { role: "어머니", name: "최은희", bank: "우리은행", number: "000-000-000000" }
     ],
     bride: [
       { role: "신부", name: "최민정", bank: "토스", number: "1000-3413-7063" }
-    //  { role: "아버지", name: "최성광", bank: "기업은행", number: "000-000-000000" },
-    //  { role: "어머니", name: "임금란", bank: "농협은행", number: "000-000-000000" }
     ]
   },
 
