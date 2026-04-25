@@ -429,7 +429,12 @@ a {
   padding-left: var(--spacing-md);
   padding-right: var(--spacing-md);
 }
-
+.hero__top,
+.hero__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
 .hero__label {
   font-family: var(--font-display);
   font-size: 0.8125rem;
