@@ -561,7 +561,7 @@
     $('#locationHall').textContent = w.hall;
     $('#locationAddress').textContent = w.address;
     $('#locationTel').textContent = w.tel ? `Tel. ${w.tel}` : '';
-    const mapImg=$('#locationMapImg');
+   
     if(mapImg) {
       mapImg.src='images/location/1.jpg';
     }
